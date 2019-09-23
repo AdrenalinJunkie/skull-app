@@ -1,13 +1,16 @@
-div{
-    background-color:#181818;
-    color:white;
-    height:600px;
-    width: calc(100%-200px);
-    margin:0;
-    padding:150px 100px 100px;
-    font-family: 'Roboto Mono', monospace;
+div {
+  background-color: #181818;
+  color: white;
+  width: calc(100%-200px);
+  height: 100%;
+  margin:0;
+  padding:150px 100px 100px;
+  font-family: 'Roboto Mono', monospace;
+}
+div p {
+  padding: 100px;
 }
 
 li{
-    margin:10px;
+  margin:10px;
 }
