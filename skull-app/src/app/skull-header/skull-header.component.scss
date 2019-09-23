@@ -5,6 +5,7 @@ div{
     width: 100%;
     border-bottom: 2px solid white;
     padding:0;
+    position:fixed;
 }
 
 ul{
@@ -12,23 +13,31 @@ ul{
     display: inline-block;
     padding:0;
     margin:0;
-    // align-items:right;
+    width:100%;
 }
 
 li{
     display: inline-block;
     font-family: 'Roboto Mono', monospace;
     padding:20px;
+
 }
 
 .large{
     color: purple;
     font-weight: 900;
     font-size: 30pt;
-    // align-items: left;
+    float:left;
+
 }
 .small{
     color:white;
     border-left:2px solid white;
-    // justify-content:right;
+    margin:4px,0px;
+    float: right;
+    width:150px;
+    padding:20px 50px;
+    :hover{
+        color:mediumpurple;
+    }
 }
