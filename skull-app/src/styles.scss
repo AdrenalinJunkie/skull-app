@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body,
+app-root {
+  height: 100%;
+  margin: 0;
+}
+app-root {
+  display: flex;
+  flex-direction: column;
+}
+app-rule-page {
+  margin: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
