@@ -23,13 +23,17 @@ li {
   border-right: 2px solid white;
   cursor: pointer;
 
+  span {
+    color: inherit;
+  }
   img {
     height: 50px;
     filter: invert(300%);
   }
-  :hover {
-    color: mediumpurple;
-  }
+}
+
+li:hover {
+  color: mediumpurple;
 }
 
 li.large {
