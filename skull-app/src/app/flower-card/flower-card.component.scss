@@ -1,0 +1,15 @@
+div{
+    height:100px;
+    width:100px;
+    border-radius:55px;
+    border: 2px solid purple;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+img{
+    height:100px;
+    filter:  invert(300%);
+}

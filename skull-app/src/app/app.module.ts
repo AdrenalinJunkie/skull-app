@@ -10,6 +10,8 @@ import { RulePageComponent } from './rule-page/rule-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HandComponent } from './hand/hand.component';
 import { BoardComponent } from './board/board.component';
+import { FlowerCardComponent } from './flower-card/flower-card.component';
+import { SkullCardComponent } from './skull-card/skull-card.component';
 
 const appRoutes: Routes = [
   { path: 'rules', component: RulePageComponent },
@@ -30,7 +32,9 @@ const appRoutes: Routes = [
     RulePageComponent,
     PageNotFoundComponent,
     HandComponent,
-    BoardComponent
+    BoardComponent,
+    FlowerCardComponent,
+    SkullCardComponent
   ],
   imports: [
     RouterModule.forRoot(
